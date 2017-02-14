@@ -1,0 +1,30 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "$(npm bin)/npm install && $(npm bin)/typings install && $(npm bin)/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.1",
+    "react-router": "^2.0.1",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "npm": "^3.8.2",
+    "redux": "^3.3.1",
+    "redux-devtools": "^3.1.1",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.9",
+    "typescript-loader": "^1.1.3",
+    "typings": "^0.7.9",
+    "webpack": "^1.12.14",
+    "webpack-stream": "^3.1.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ts",
+  "version": false,
+  "dependencies": {
+    "redux": "registry:npm/redux#3.0.6+20160214194820"
+  },
+  "ambientDependencies": {
+    "react": "registry:dt/react#0.14.0+20160319053454",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160316155526",
+    "redux-devtools": "registry:dt/redux-devtools#3.0.0+20151215130854"
+  }
+}
