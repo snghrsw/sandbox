@@ -1,0 +1,22 @@
+{
+  "name": "manage-twitter",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Shingo Hirayama",
+  "license": "ISC",
+  "scripts": {
+    "start": "echo 'npm start'"
+  },
+  "engines": {
+    "node": "v7.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.15.1",
+    "mysql": "^2.11.1",
+    "raven": "^0.12.1",
+    "twitter": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^10.0.1"
+  }
+}
