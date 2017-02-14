@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B8C82CF296D50601567569AB21A7244EA5DC981",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B8C82CF296D50601567569AB21A7244EA5DC981" : 0,
+    "8CAA6964B4D8E48B19969B03C61BBEE31ADFCB1E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1915915F-5922-4E7E-B9DE-3112322EC4FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B8C82CF296D50601567569AB21A7244EA5DC981" : "sonic_workshop1\/",
+    "8CAA6964B4D8E48B19969B03C61BBEE31ADFCB1E" : "example1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "sonic_workshop1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sonic_workshop1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/wwwadmgit.rap.raftel\/iOSLearning\/sonic_workshop1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B8C82CF296D50601567569AB21A7244EA5DC981"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/wwwadmgit.rap.raftel\/iOSLearning\/example1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CAA6964B4D8E48B19969B03C61BBEE31ADFCB1E"
+    }
+  ]
+}
