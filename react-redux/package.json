@@ -1,0 +1,25 @@
+{
+  "name": "react-redux-unified",
+  "version": "0.0.1",
+  "description": "Frontend Architecture Boilerplate. Atomic-Design base layout, and Testable unified React container/components.",
+  "main": "./src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "mocha --require ./src/helpers/setupMocha.js  ./src/**/*.test.js",
+  },
+  "author": "snghrym",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "6.10.1",
+    "babel-core": "6.10.4",
+    "babel-eslint": "6.1.0",
+    "enzyme": "^2.2.0",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0",
+  },
+  "browser": {
+    "joi": "joi-browser"
+  }
+}

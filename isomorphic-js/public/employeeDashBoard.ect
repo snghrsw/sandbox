@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <link href='/style.css' rel="stylesheet">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />      <meta lang="ja-JP" />
+  </head>
+  <body>
+
+    <script id="initial-data" type="text/plain" data-json='<%- @initialState %>' ></script>
+
+    <script>
+      var initialState = JSON.parse(document.getElementById('initial-data').getAttribute('data-json'));
+      console.log(initialState);
+    </script>
+
+    <div id="app">
+      <%- @content %>
+    </div>
+
+    <script type="text/javascript" src="/bundle.js"></script>
+
+  </body>
+</html>

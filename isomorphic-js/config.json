@@ -1,0 +1,41 @@
+{
+  "levels": {
+    "develop": "ALL",
+    "production": "ALL",
+    "system": "ALL"
+  },
+  "replaceConsole": true,
+  "localhost":{
+    "FACEBOOK":{
+      "CLIENT_ID":1676893852539620,
+      "CLIENT_SECRET":"0f5025ecad3ae3987bdc6fe6d845f2dd",
+      "CALLBACK_URL":"http://localhost:3000/auth/facebook/callback"
+    },
+    "MYSQL_DABATASE":"zenin",
+    "MYSQL_USER":"root",
+    "MYSQL_PASSWORD":"",
+    "MYSQL_HOST":"localhost"
+  },
+  "develop":{
+    "FACEBOOK":{
+      "CLIENT_ID":795547407224717,
+      "CLIENT_SECRET":"238bd8c43f838f0ec5c4b6f2c7e57267",
+      "CALLBACK_URL":"http://refcome.herokuapp.com/auth/facebook/callback"
+    },
+    "MYSQL_DABATASE":"heroku_c452443b20b76da",
+    "MYSQL_USER":"bf8473e52fcb1a",
+    "MYSQL_PASSWORD":"adaea93c",
+    "MYSQL_HOST":"us-cdbr-iron-east-02.cleardb.net"
+  },
+  "production":{
+    "FACEBOOK":{
+      "CLIENT_ID":1676893852539620,
+      "CLIENT_SECRET":"0f5025ecad3ae3987bdc6fe6d845f2dd",
+      "CALLBACK_URL":"http://localhost:3000/auth/facebook/callback"
+    },
+    "MYSQL_DABATASE":"zenin_jinji",
+    "MYSQL_USER":"root",
+    "MYSQL_PASSWORD":"",
+    "MYSQL_HOST":"localhost"
+  }
+}
